@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id = "title">Final Project HTML</title>
+    <link rel="stylesheet" type="text/css" href="Resources/CSS/finalProject.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class = 'title'>HTML and CSS</h1>
+
+    <div id = 'nav'>
+        <h3 class = 'nav'><a href = '#htmlSyntax'><u>HTML Syntax</u></a></h3>
+        <h3 class = 'nav'><a href = '#cssSyntax'><u>CSS Syntax</u></a></h3>
+        <h3 class = 'nav'><a href = '#Difficulties I Faced'><u>Difficulties I Faced</u></a></h3>
+        <!-- ADD LINKS LATER -->
+    </div>
+
+
+    <a href = '#cssSyntax'><img id = 'CSSImage' src = 'Resources/cssImg.png'/></a>
+    <a href = '#htmlSyntax'><img id = 'HTMLImage' src = 'Resources/htmlImg.png'/></a>
+
+    <div id = 'htmlSyntax'>
+        <h2>HTML Syntax</h2>
+        <p>HTML doesn't take too long to grasp. The basics are simple. Opening brackets consist of an arrow (<), a tag like <strong>'body', 'p'</strong> for paragraph or the different headings like <strong>'h1', 'h2', 'h3'</strong>, etc which become smaller as the number goes up, and another arrow (>).</p>
+
+        <p>You can't have opening tags without your closing tags though. Closing tags are  similar to opening tags, but with one important distinction. Before the tag you put a forward slash (/). </p>
+
+        <img id = 'commonTags' src = 'Resources/tags.png'>
+        <p id = 'caption'>Some common tags in HTML...</p>
+    </div>
+
+    <div id = 'cssSyntax'>
+        <h2>CSS Syntax</h2>
+        <p>This website is quite beautiful, and most websites are made to look appealing because otherwise people wouldn't want to look at them.</p>
+        <p>The basic HTML for websites though isn't as appealing, with basic fonts and colors. You can doewnload other fonts and colors to put into your website but sometimes it just doesn't cut it.</p>
+        <p>That's where CSS, or Cascading Style Sheets, comes into play.</p>
+
+        <h3 id = 'linking'>Linking your CSS to HTML files</h3>
+        <p>To be able to use a CSS file with your HTML file, you must first link the CSS file to the HTML file using the &lt;link&gt; tag in HTML. Within this you include the relation using <strong>rel="stylesheet"</strong>, the type with <strong>type="text/css"</strong>, and finally the part that actually links it, the <strong>href</strong>> with the file path.</p>
+
+        <p>Once you've linked your files you can start coding in CSS. There are many properties to play with like <strong>font-family, font-size, font-weight, color, background-color, etc.</strong> All of these change how your elements in HTML appear in your browser</p>
+        <img src = 'Resources/cssCode.png' class = cssCodePic>
+        <p id = 'caption'>Some code in CSS</p>
+
+        <p>For CSS, you put the identifier like html, body, h1, etc and then a set of <em>curly brackets</em>. Within those curly brackets you can put whatever style rules you like. An important one is color and making sure you pick colors that work well together, like I have tried to do here.</p>
+        
+    </div>
+
+    <div id = 'Difficulties I Faced'>
+        <h2>Difficulties I Faced</h2>
+
+        <p>While HTML isn't a terribly hard language to learn, it comes with its own unique challenges. Couple HTML with learning CSS for the visual side of the user experience and it gets confusing quickly.</p>
+
+        <h3>The Difficulties</h3>
+        <ul>
+            <li>Getting the Syntax Right</li>
+            <li>Understanding the Box Model of HTML/CSS</li>
+            <li>Making text and images aligned with the page how I wanted</li>
+        </ul>
+    </div>
+</body>
+
+</html>
